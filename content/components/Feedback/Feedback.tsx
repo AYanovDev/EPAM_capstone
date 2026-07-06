@@ -1,7 +1,7 @@
 export function Feedback() {
   return (
     <div>
-      <h1>Feedback</h1>
+      <h2>Feedback</h2>
       <p className="shaded_text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum qui
         nulla autem numquam itaque nam nihil explicabo neque rem maiores

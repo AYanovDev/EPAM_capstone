@@ -1,7 +1,7 @@
 export function AboutMe() {
   return (
     <div>
-      <h1>About me</h1>
+      <h2>About me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
         exercitationem dolorum obcaecati. Voluptate ipsum soluta earum? Iste,

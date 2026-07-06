@@ -7,6 +7,7 @@ import { NavBar } from "./components/Navbar/NavBar";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Skills } from "./components/Skills/Skills";
 import "./global.css";
+import "./content.css";
 
 export function Content() {
   return (

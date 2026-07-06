@@ -1,7 +1,7 @@
 export function Skills() {
   return (
     <div>
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <div className="chart"></div>
       <div className="mastery"></div>
     </div>
