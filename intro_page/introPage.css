@@ -1,9 +1,10 @@
-body {
-  background-image: url("assets/image 2.png");
+.intro_background {
+  background-image: url("/home/ayanovdev/repos/epam/week_1/EPAM_capstone/assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
+  min-height: 100vh;
 }
 
 .intro_pic {
