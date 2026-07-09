@@ -1,0 +1,50 @@
+.edu_content {
+  display: flex;
+  gap: 40px;
+}
+
+.dates_and_bars {
+  display: flex;
+  flex-direction: column;
+}
+
+.dates_and_bars > img {
+  width: 5px;
+  height: 100px;
+  align-self: center;
+}
+
+.dates_and_bars > p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.edu_titleANDtext {
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+.edu_titleANDtext > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.edu_titleANDtext > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.edu_data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

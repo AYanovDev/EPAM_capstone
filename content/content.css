@@ -1,3 +1,13 @@
 .content_div {
   display: flex;
+  height: 100vh;
+}
+
+.data_div {
+  padding-top: 35px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-y: scroll;
 }

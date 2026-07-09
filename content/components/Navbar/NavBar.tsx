@@ -1,3 +1,10 @@
+import { ContactsIcon } from "./icons/ContactIcon";
+import { EducationIcon } from "./icons/EduIcon";
+import { ExperienceIcon } from "./icons/ExpIcon";
+import { FeedbackIcon } from "./icons/FeedbackIcon";
+import { PortfolioIcon } from "./icons/PortIcon";
+import { SkillsIcon } from "./icons/SkillsIcon";
+import { UserIcon } from "./icons/UserIcon";
 import "./navbar.css";
 
 export function NavBar() {
@@ -10,31 +17,31 @@ export function NavBar() {
       </div>
       <nav>
         <div>
-          <img src="assets/icons/Vector.svg" alt="" />
+          <UserIcon></UserIcon>
           <a href="#about">About Me</a>
         </div>
         <div>
-          <img src="assets/icons/Education.svg" alt="" />
+          <EducationIcon></EducationIcon>
           <a href="#edu">Education</a>
         </div>
         <div>
-          <img src="assets/icons/Experience.svg" alt="" />
+          <ExperienceIcon></ExperienceIcon>
           <a href="#exp">Experience</a>
         </div>
         <div>
-          <img src="assets/icons/Skills.svg" alt="" />
+          <SkillsIcon></SkillsIcon>
           <a href="#skills">Skills</a>
         </div>
         <div>
-          <img src="assets/icons/Portfolio.svg" alt="" />
+          <PortfolioIcon></PortfolioIcon>
           <a href="#portfoliio">Portfolio</a>
         </div>
         <div>
-          <img src="assets/icons/Vector (1).svg" alt="" />
+          <ContactsIcon></ContactsIcon>
           <a href="#contacts">Contacts</a>
         </div>
         <div>
-          <img src="assets/icons/Feedbacks.svg" alt="" />
+          <FeedbackIcon></FeedbackIcon>
           <a href="#feedback">Feedback</a>
         </div>
         <div className="go_back">

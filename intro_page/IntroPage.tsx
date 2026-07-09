@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./introPage.css";
 
 export function IntroPage() {
@@ -11,7 +12,9 @@ export function IntroPage() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex error
           voluptatibus esse itaque doloribus voluptatibus esse itaque doloribus
         </p>
-        <button className="more_btn">Learn more</button>
+        <Link to={"/more"}>
+          <button className="more_btn">Learn more</button>
+        </Link>
       </div>
     </div>
   );
