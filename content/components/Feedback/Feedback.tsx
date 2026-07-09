@@ -3,7 +3,7 @@ import "./feedback.css";
 export function Feedback() {
   return (
     <div>
-      <h2>Feedback</h2>
+      <h2 id="feedback">Feedback</h2>
       <div className="feedback_container">
         <p className="shaded_text">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

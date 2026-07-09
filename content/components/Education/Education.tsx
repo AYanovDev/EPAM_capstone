@@ -3,7 +3,7 @@ import "./education.css";
 export function Education() {
   return (
     <div>
-      <h2>Education</h2>
+      <h2 id="edu">Education</h2>
       <div className="edu_content">
         <div className="dates_and_bars">
           <p>1990</p>

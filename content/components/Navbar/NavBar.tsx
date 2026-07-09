@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { ContactsIcon } from "./icons/ContactIcon";
 import { EducationIcon } from "./icons/EduIcon";
 import { ExperienceIcon } from "./icons/ExpIcon";
@@ -8,44 +9,72 @@ import { UserIcon } from "./icons/UserIcon";
 import "./navbar.css";
 
 export function NavBar() {
+  const [collapsed, setCollapsed] = useState(false);
   return (
-    <div className="navbar">
+    <div className={`navbar ${collapsed ? "collapsed" : ""}`}>
       <div className=" avatarANDname">
-        <img className="nav_menu" src="assets/icons/Menu.png" alt="" />
+        <img
+          className="nav_menu"
+          src="assets/icons/Menu.png"
+          alt=""
+          onClick={() => setCollapsed(!collapsed)}
+        />
         <img className="nav_avatar" src="assets/user_avatar.png" alt="" />
         <p className="nav_name">John Doe</p>
       </div>
       <nav>
         <div>
-          <UserIcon></UserIcon>
-          <a href="#about">About Me</a>
+          <a href="#about_me">
+            <UserIcon />
+            <span>About Me</span>
+          </a>
         </div>
         <div>
-          <EducationIcon></EducationIcon>
-          <a href="#edu">Education</a>
+          <a href="#edu">
+            <EducationIcon />
+            <span>Education</span>
+          </a>
         </div>
+
         <div>
-          <ExperienceIcon></ExperienceIcon>
-          <a href="#exp">Experience</a>
+          <a href="#exp">
+            <ExperienceIcon />
+            <span>Experience</span>
+          </a>
         </div>
+
         <div>
-          <SkillsIcon></SkillsIcon>
-          <a href="#skills">Skills</a>
+          <a href="#skills">
+            <SkillsIcon />
+            <span>Skills</span>
+          </a>
         </div>
+
         <div>
-          <PortfolioIcon></PortfolioIcon>
-          <a href="#portfoliio">Portfolio</a>
+          <a href="#portfolio">
+            <PortfolioIcon />
+            <span>Portfolio</span>
+          </a>
         </div>
+
         <div>
-          <ContactsIcon></ContactsIcon>
-          <a href="#contacts">Contacts</a>
+          <a href="#contacts">
+            <ContactsIcon />
+            <span>Contacts</span>
+          </a>
         </div>
+
         <div>
-          <FeedbackIcon></FeedbackIcon>
-          <a href="#feedback">Feedback</a>
+          <a href="#feedback">
+            <FeedbackIcon />
+            <span>Feedback</span>
+          </a>
         </div>
         <div className="go_back">
-          <a href="#">&lt; Go back</a>
+          <a href="/">
+            <span className="back_icon">&lt;</span>
+            <span className="back_text">Go back</span>
+          </a>
         </div>
       </nav>
     </div>

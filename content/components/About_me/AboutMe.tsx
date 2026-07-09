@@ -3,7 +3,7 @@ import "./about_me.css";
 export function AboutMe() {
   return (
     <div>
-      <h2>About me</h2>
+      <h2 id="about_me">About me</h2>
       <p className="about_text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
         exercitationem dolorum obcaecati. Voluptate ipsum soluta earum? Iste,

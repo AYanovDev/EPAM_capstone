@@ -4,7 +4,7 @@ import "./skills.css";
 export function Skills() {
   return (
     <div>
-      <h2>Skills</h2>
+      <h2 id="skills">Skills</h2>
       <div className="chart">
         <div className="html">
           <div>HTML</div>

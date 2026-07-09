@@ -3,7 +3,7 @@ import "./experience.css";
 export function Experience() {
   return (
     <div className="exp_container">
-      <h2>Experience</h2>
+      <h2 id="exp">Experience</h2>
       <div className="exp_1">
         <div className="companyANDdate">
           <h3>Google</h3>

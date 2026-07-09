@@ -3,15 +3,17 @@ import "./contacts.css";
 export function Contacts() {
   return (
     <div>
-      <h2>Contacts</h2>
+      <h2 id="contacts">Contacts</h2>
       <div className="contacts">
         <div className="phone">
           <img src="assets/icons.png" alt="" />
           <p className="cont_bold">8 800 555 35 35</p>
         </div>
         <div className="mail">
-          <img src="assets/mail.png" alt="" />
-          <p className="cont_bold">literally@him.com</p>
+          <img src="assets/mail.png" alt="Email" />
+          <a href="mailto:literally@him.com" className="cont_bold">
+            literally@him.com
+          </a>
         </div>
         <div className="tw">
           <img src="assets/Twitter.png" alt="" />
