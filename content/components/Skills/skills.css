@@ -1,0 +1,54 @@
+.chart {
+  min-height: 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chart > * {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: white;
+}
+
+.html div,
+.css div,
+.jquerry div,
+.php div,
+.laravel div {
+  background-color: #26c17e;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.html div {
+  width: 100%;
+}
+
+.css div {
+  width: 75%;
+}
+
+.jquerry div {
+  width: 70%;
+}
+
+.php div {
+  width: 45%;
+}
+
+.laravel div {
+  width: 25%;
+}
+
+.mastery {
+  margin-top: 15px;
+}
