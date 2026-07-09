@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ContactsIcon } from "./icons/ContactIcon";
 import { EducationIcon } from "./icons/EduIcon";
 import { ExperienceIcon } from "./icons/ExpIcon";
@@ -9,7 +9,20 @@ import { UserIcon } from "./icons/UserIcon";
 import "./navbar.css";
 
 export function NavBar() {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(window.innerWidth <= 600);
+
+  useEffect(() => {
+    function handleResize() {
+      setCollapsed(window.innerWidth <= 600);
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className={`navbar ${collapsed ? "collapsed" : ""}`}>
       <div className=" avatarANDname">
