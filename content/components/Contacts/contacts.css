@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts > div {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+
+.contacts img {
+  max-width: 30px;
+  max-height: 30px;
+  align-self: center;
+}
+
+.cont_bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.cont_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #667081;
+  margin: 0px 5px;
+}
