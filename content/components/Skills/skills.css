@@ -52,3 +52,7 @@
 .mastery {
   margin-top: 15px;
 }
+
+.mastery svg {
+  width: 100%;
+}
