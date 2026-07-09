@@ -51,8 +51,11 @@
 
 .mastery {
   margin-top: 15px;
+  width: 100%;
 }
 
 .mastery svg {
+  display: block;
   width: 100%;
+  height: auto;
 }
